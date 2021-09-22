@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestProject">
+        <activity
+            android:name=".observable.MidleActivity"
+            android:exported="true" />
+
+        <activity android:name=".observable.with_interface.ObserveActivity" />
+        <activity android:name=".observable.with_view_model.SubscriberActivity" />
+        <activity android:name=".text.TextViewAutoSizeActivity" />
+        <activity android:name=".cardView.CardViewActivity" />
+        <activity android:name=".compose.ComposeActivity" />
+        <activity android:name=".slider.SliderActivity" />
+        <activity android:name=".themes.ThemesActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TestProject.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

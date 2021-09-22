@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".observable.with_interface.ObserveFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/vSendActivity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="send to Activity (interface constructor)"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/vSendActivity2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="send to Activity (interface onAttach)"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="text_Day">День/ночь тема</string>
+    <string name="text_Locale">Рус/Англ локаль</string>
+</resources>
